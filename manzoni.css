@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    top: 5vh;
+
+}
+.center{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@keyframes fadeIn {
+    0%{
+    }
+    100%{
+    }
+}
+
+/*CONOSCIENZE CSS*/
+
+body{
+    background-color: rgb(24, 28, 68);
+}
+
+    /*TITOLO*/
+
+.text{
+    position: relative;
+    color: rgb(207, 198, 198) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 4px 7px #7b6ba8;
+}
+
+    /*TESTO*/
+
+.testo{
+    position: relative;
+    color: rgb(207, 198, 198) ;
+    text-shadow: 0px 2px 4px #abd438;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    left: 40vw;
+    top: 5vw;
+}
+
+.img-al{
+    position: relative;
+    top: -15vw;
+    left: 10vw;
+    border-radius: 22px;
+    box-shadow: 0px 2px 5px #c4bebe;
+}
+
+.testo-2{
+    position: relative;
+    color: rgb(207, 198, 198) ;
+    text-shadow: 0px 2px 4px #abd438;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    left: 1vw;
+    top: 5vw;
+}
+
+.img-per1{
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    border-radius: 22px;
+    box-shadow: 0px 2px 5px #c4bebe;
+}
+
+.img-per2{
+    position: relative;
+    top: 10vw;
+    left: 40vw;
+    border-radius: 22px;
+    box-shadow: 0px 2px 5px #c4bebe;
+}
+
+.about{
+    position: relative;
+    color: rgb(207, 198, 198) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 4px 7px #7b6ba8;
+    top: 23vw;
+}
+
+.testo-3{
+    position: relative;
+    color: rgb(207, 198, 198) ;
+    text-shadow: 0px 2px 4px #abd438;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    left: 1vw;
+    top: 30vw;
+}
+
+.img-us{
+    position: relative;
+    top: 35vw;
+    left: 35vw;
+    border-radius: 30%;
+    padding: 20px;
+}

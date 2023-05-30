@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    top: 5vh;
+
+}
+.center{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@keyframes fadeIn {
+    0%{
+    }
+    100%{
+    }
+}
+
+/*HOME CSS*/
+
+body{
+    background-color: rgb(24, 28, 68);
+}
+
+.logo-home{
+    position: relative;
+    border-radius: 50%;
+    width: 5vw;
+    left: 6vw;
+    top: 2vw;
+    box-shadow: 0px 2px 12px #64bece;
+}
+
+.title{
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 13vw;
+    top: -3vw;
+    color: rgb(207, 198, 198);
+    text-shadow: 0px 0px 4px #d15ec8;
+}
+
+
+
+#light{
+    position: relative;
+    background-color: rgb(92, 103, 199);
+    border-radius: 50%;
+    box-shadow: 0px 8px 20px rgb(92, 103, 199) ;
+    height: 32vw;
+    width: 37vw;
+    left: 59vw;
+    top: 1vw;
+    opacity: 0.4;
+}
+
+.immagine-1{
+    position: relative;
+    top: -29vw;
+    left: 51vw;
+    border-radius: 50%;
+}
+
+.immagine-2{
+    position: relative;
+    top: -39vw;
+    width: 25vw;
+    left: 11.5vw;
+}
+
+.home-txt{
+    position: relative;
+    color: rgb(207, 198, 198) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    left: 6vw;
+    top: -695px;
+    text-shadow: 0px 0px 4px #d15ec8;
+}
+
+.scopri{
+    position: relative;
+    background: linear-gradient(#70368b , #b32c86);
+    height: 4vw;
+    width: 20vw;
+    border-radius: 14%;
+    left: 3vw;
+    top: -550px;
+}
+
+.scopri-text{
+    position: relative;
+    color: rgb(207, 198, 198) ;
+    text-shadow: 0px 0px 4px #d15ec8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    left: 35px;
+    top: 10px;
+    text-decoration: none;
+}
